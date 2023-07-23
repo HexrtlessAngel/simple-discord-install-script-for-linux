@@ -11,7 +11,7 @@ sudo echo "Installing Discord..."
 sudo rm -rf /usr/share/discord
 sudo cp -r Discord/ /usr/share/discord
 echo "Discord adding shortcuts..."
-sudo cp discord/discord.desktop /usr/share/applications/discordnative.desktop
+sudo cp discord/discord.desktop /usr/share/applications/discord.desktop
 cp Discord/discord.desktop "/home/$(whoami)/Desktop/discord.desktop"
 sudo rm /usr/bin/discord
 echo "Discord adding terminal commands..."
