@@ -16,6 +16,7 @@ cp Discord/discord.desktop "/home/$(whoami)/Desktop/discord.desktop"
 sudo rm /usr/bin/discord
 echo "Discord adding terminal commands..."
 sudo ln -sf /usr/share/discord/Discord /usr/bin/discord
+sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 echo "Discord installed!"
 echo "Cleaning up some shit..."
 rm -rf Discord

@@ -16,6 +16,12 @@ cp Discord/discord.desktop "/home/$(whoami)/Desktop/discord.desktop"
 sudo rm /usr/bin/discord
 echo "Discord adding terminal commands..."
 sudo ln -sf /usr/share/discord/Discord /usr/bin/discord
+
+wget https://github.com/BetterDiscord/Installer/releases/download/v1.3.0/BetterDiscord-Linux.AppImage
+chmod +x BetterDiscord-Linux.AppImage
+./BetterDiscord-Linux.AppImage
+rm BetterDiscord-Linux.AppImage
+
 echo "Discord installed!"
 echo "Cleaning up some shit..."
 rm -rf Discord
